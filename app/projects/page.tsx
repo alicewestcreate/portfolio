@@ -8,6 +8,7 @@ const Projects = () => {
       <div className="bg-slate-900 p-5 pb-28">
       <ProjectWrapper />
       </div>
+
       
 
     </>

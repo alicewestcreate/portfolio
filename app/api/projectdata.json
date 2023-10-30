@@ -1,5 +1,31 @@
 [
     {
+        "path": "nexcent",
+        "title": "Nexcent",
+        "blurb": " — A demo landing page",
+        "backgroundImage": "/images/heroIllustration.png",
+        "demo": "/images/NexcentDemo.gif",
+        "alt": "Demo of bud application",
+        "devSpec": [
+            "React",
+            "MUI",
+            "Data Manipulation",
+            "RESTful APIs"
+        ],
+        "links": {
+            "deployed": "https://budyourlife.netlify.app/",
+            "repo": "https://github.com/alicewestcreate/bud.git"
+        },
+        "overview" : "Bud is a dating app for plants. Drawing inspiration from Tinder, users take a quiz to find their ideal plant match based on their preferences.",
+        "goal" : "Empower plant parents in their journey to discover and nurture plants that align with their personal parenting styles",
+        "mainFeature" : [
+            "Effortlessly discover plants that are a perfect match for your plant parenting skills and your home environment, through a personalised questionnaire.",
+            "See each plant's key characteristics and care requirements at a glance to make an informed decisions about which plants to adopt.",
+            "Create a wishlist of potential plant matches and easily locate nearby stores to purchase them. "
+        ],
+        "outcome": "Create a wishlist of potential plant matches and easily locate nearby stores to purchase them. "
+    },
+    {
         "path": "bud",
         "title": "Bud",
         "blurb": " — A dating app for plants",

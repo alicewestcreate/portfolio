@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Alice West",
   description: "Frontend Software Engineer Portfolio",
-  manifest: "/Favicon/manifest.webmanifest",
+  // manifest: "app/Favicon/manifest.webmanifest",
 };
 
 export default function RootLayout({
