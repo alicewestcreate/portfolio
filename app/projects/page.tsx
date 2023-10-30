@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectWrapper from "./components/ProjectWrapper";
+import ProjectWrapper from "./_components/ProjectWrapper";
 
 
 const Projects = () => {

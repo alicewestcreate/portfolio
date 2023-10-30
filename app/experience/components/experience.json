@@ -1,0 +1,26 @@
+[
+    {
+        "position" : "Software Engineer Intern",
+        "company": "Data Camp",
+        "url": "",
+        "description" : "Collaborated with the Organic Growth Engineering team, within an agile and scrum framework, addressing SEO, NPD, and bug-related tickets at a SaaS organisation. I participated in two hackathons, creating Python audio-to-text and TypeScript UI components. Led a card component refactoring project and designed a new Circle CI workflow to streamline the acceptance review process.",
+             "start": "Jun 23",
+        "end": "Sep 23"
+    },
+    {
+        "position" : "Front End Developer [Student]",
+        "company": "EdX Bootcamp",
+        "url": "",
+        "description" : "Gained proficiency in key front-end development fundamentals, including JavaScript, Node, React, responsive design, version control (Git), package management, API calls, DOM manipulation, browser developer tools, and basic server concepts. Showcasing expertise in over 10 coding challenges and active participation in 2 group projects during a rigorous 16-week intensive bootcamp.",   
+        "start": "Dec 22",
+        "end": "Apr 23"
+    },
+    {
+        "position" : "Software Engineering [Student]",
+        "company": "HyperionDev Bootcamp",
+        "url": "",
+        "description" : "Acquired essential software engineering skills in Python, including working with data structures, practicing object-oriented programming (OOP), understanding program efficiency evaluation (Big-O notation), and developing applications that interact with SQL databases. Of which I received 100% for completeness, efficiency, style, and documentation for all projects.", 
+        "start": "Dec 22",
+        "end": "Mar 23"
+    }
+]

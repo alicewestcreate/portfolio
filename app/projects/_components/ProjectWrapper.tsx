@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import projectData from "../../api/projectdata.json";
 import PageTitle from "@/app/_common/PageTitle";
 import CenterColumnLayout from "@/app/_common/CenterColumnLayout";
+import type { ProjectProps } from "./ProjectCard";
 
 const ProjectWrapper = () => {
   const projects = [
@@ -26,8 +27,8 @@ const ProjectWrapper = () => {
     },
   ];
 
-  const projectCards = projectData.map((project) => (
-    <ProjectCard project={project}></ProjectCard>
+  const projectCards = projectData.map((project, index) => (
+    <ProjectCard key={index} project={project}></ProjectCard>
   ));
 
   const wrapperCSS = "grid";
