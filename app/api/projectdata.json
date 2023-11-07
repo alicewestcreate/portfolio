@@ -5,23 +5,23 @@
         "blurb": " — A demo landing page",
         "backgroundImage": "/images/heroIllustration.png",
         "demo": "/images/NexcentDemo.gif",
-        "alt": "Demo of bud application",
+        "alt": "A mock landing page",
         "devSpec": [
-            "React",
-            "MUI",
-            "Data Manipulation",
-            "RESTful APIs"
+            "Next.js",
+            "Emotion",
+            "Responsive Design",
+            "Atomic Design"
         ],
         "links": {
-            "deployed": "https://budyourlife.netlify.app/",
-            "repo": "https://github.com/alicewestcreate/bud.git"
+            "deployed": "https://nexcent-mock.netlify.app",
+            "repo": "hhttps://github.com/alicewestcreate/nexcent.git"
         },
-        "overview" : "Bud is a dating app for plants. Drawing inspiration from Tinder, users take a quiz to find their ideal plant match based on their preferences.",
-        "goal" : "Empower plant parents in their journey to discover and nurture plants that align with their personal parenting styles",
+        "overview" : "Nexcent is a mock landing page meticulously built to bring a pre-designed Figma concept to life.",
+        "goal" : "Demonstrate my proficient ability to create pixel-perfect components that mirror the intricacies of the UI designs.",
         "mainFeature" : [
-            "Effortlessly discover plants that are a perfect match for your plant parenting skills and your home environment, through a personalised questionnaire.",
-            "See each plant's key characteristics and care requirements at a glance to make an informed decisions about which plants to adopt.",
-            "Create a wishlist of potential plant matches and easily locate nearby stores to purchase them. "
+            "Components built adhering to the Atomic Design Principle, allowing for clean, modular code, allowing for future flexibility and maintainability.",
+            "Developed custom components with props variation to align with design requirements and minimise code repetition.",
+            "Constructed with Emotion to efficiently manage and scope CSS styles, ensuring clean and dynamic design while streamlining the development process. "
         ],
         "outcome": "Create a wishlist of potential plant matches and easily locate nearby stores to purchase them. "
     },
