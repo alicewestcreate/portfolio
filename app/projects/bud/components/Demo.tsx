@@ -13,6 +13,7 @@ const Demo = ({srcValue, altValue}: props) => {
       alt={altValue}
       width={1000}
       height={1000}
+      unoptimized={true}
     />
   </div>
   )
