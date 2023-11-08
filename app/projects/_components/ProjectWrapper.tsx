@@ -11,15 +11,12 @@ const ProjectWrapper = () => {
   const projectCards = projectData.map((project, index) => (
     <ProjectCard key={index} {...project}></ProjectCard>
   ));
-  const wrapperCSS = "grid";
-  const projectColumnCSS = "flex flex-col gap-12 sm:p-24 justify-self-center";
-  const projectColumnReponsive = "md:max-w-4xl lg:max-w-6xl";
 
   return (
     <CenterColumnLayout>
       <div className="flex justify-between">
       <PageTitle>_Projects</PageTitle>
-      {/* <Button hrefValue="https://github.com/alicewestcreate" newTab variant="secondary" label="Go To Github"></Button> */}
+      <Button hrefValue="https://github.com/alicewestcreate" newTab variant="secondary" label="Go To Github"></Button>
       </div>
       {projectCards}
     </CenterColumnLayout>

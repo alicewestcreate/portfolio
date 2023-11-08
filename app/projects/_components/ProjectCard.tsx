@@ -1,7 +1,8 @@
 import Button from "@/app/_common/Button";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
+import SkillFlags from "@/app/_common/SkillFlags";
 
 export interface ProjectObjProps {
   path: string;
@@ -22,7 +23,7 @@ export interface ProjectObjProps {
 }
 
 const ProjectCard = ({ ...project }: ProjectObjProps) => {
-  const link = "/projects/bud";
+  const link = `projects/${project.path}`;
   const cardCSS = "flex flex-col md:flex-row";
   const figureCSS = "aspect-square flex-1";
   const imageCSS = "object-cover h-full w-full bg-slate-100";
@@ -30,6 +31,7 @@ const ProjectCard = ({ ...project }: ProjectObjProps) => {
   const cardBodyCSS =
     "flex flex-col p-8 text-white gap-5 justify-center h-full ";
   const cardTitleCSS = "card-title";
+  const skillFlagsCSS = "flex flex-wrap gap-3 my-6"
   const cardActionCSS = "card-actions justify-start";
 
   return (
@@ -48,7 +50,9 @@ const ProjectCard = ({ ...project }: ProjectObjProps) => {
           <div className={`${cardBodyCSS}`}>
             <h2 className={`${cardTitleCSS}`}>{project.title} </h2>
             <p>{project.blurb}</p>
-            <p>{project.overview}</p>
+            <div className={`${skillFlagsCSS}`}>
+              <SkillFlags skillList={project.devSpec} />
+            </div>
             <div className={`${cardActionCSS}`}>
               <Button
                 hrefValue={`projects/${project.path}`}

@@ -5,6 +5,7 @@ import ExperienceCard from "./components/ExperienceCard";
 import experienceList from "./components/experience.json";
 import previousExperience from "./components/previousExperience.json"
 import Button from "../_common/Button";
+import SkillFlags from "../_common/SkillFlags";
 
 interface experienceCard {
   position: string,
@@ -39,17 +40,6 @@ const TimeLine = () => {
 
   ]
 
-  const renderSkills = (skills: string[]) => {
-    return skills.map((skill, index) => (
-      <span
-        key={index}
-        className="text-white font-light px-2 bg-teal-500 rounded"
-      >
-        {skill}
-      </span>
-    ));
-
-  }
 
   const renderExperienceCards = (ex:experienceCard[]) => {
    return ex.map((experience, index) => (
@@ -78,7 +68,7 @@ const TimeLine = () => {
             testing, agile working.
           </p>
           <div className="flex flex-wrap gap-3 justify-center py-8">
-            {renderSkills(skills)}
+            <SkillFlags skillList={skills} />
           </div>
         </div>
         {renderExperienceCards(experienceList)}
@@ -87,11 +77,10 @@ const TimeLine = () => {
         <PageTitle>_Previous Experience</PageTitle>
         <div className="">
           <p className="text-white text-center">
-            A junior software engineer, with experience in Typescript, uniting
-            testing, agile working.
+          Over eight years experience across Brand, Design and Marketing
           </p>
           <div className="flex flex-wrap gap-3 justify-center py-8">
-            {renderSkills(brandSkills)}
+          <SkillFlags skillList={brandSkills} />
           </div>
         </div>
         {renderExperienceCards(previousExperience)}
